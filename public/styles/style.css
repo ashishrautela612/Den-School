@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid black; */
+}
+.homeSection{
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: top 0 left 0;
+}
+.navbar{
+    padding: 1rem 2rem;
+}
+/* .navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/toggle-icon.png);
+    width: 50px;
+} */
+.landingPage{
+    border-bottom: 1px solid black;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.btns{
+    background: none;
+    border: 2px solid black;
+    padding: 8px 22px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.btns:hover{
+    border-color: #0d7550;
+    color: #0d7550;
+}
+.serviceHeading{
+    color: #070706;
+}
+.bottomBar{
+    height: 8px;
+    width: 70px;
+    background-color: #0d7550;
+    transition: all .3s ease-in-out;
+}
+.service{
+    box-shadow: 0px 0px 22px 16px #f0f0f0;
+}
+.readMore{
+    background-color: #0d7550;
+}
+.aboutSchool{
+    background-color: #fb6818;
+}
+.whyUsCard{
+    width: 50%;
+    transition: all 0.45s ease-in-out;
+}
+.whyUsCard:hover{
+    transform: translateY(-20px);  
+}
+.blog{
+    width: 32%;
+    box-shadow: 0px 0px 22px 16px #f0f0f0;
+}
+.blogHeading{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.description , .blogDescription{
+    font-size: 14px;
+}
+.feedback{
+    background-color: #1d1f1e;
+}
+.feedBackCard{
+    width: 40%;
+    position: relative;
+}
+.feedbackRight{
+    width: 55%;
+}
+.feedbackLeft{
+width: 45%;
+}
+.studentImageContainer{
+    width: 40%;
+    position: absolute;
+    top: -1rem;
+    left: 4.5rem;
+}
+.firstCard{
+    transform: translateY(-5rem);
+}
+.feedBackDescription{
+    padding-top: 7rem;
+    /* padding-bottom: 2rem; */
+}
+
+.arrow{
+    background-color: #fb6818;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.contactUsContainer{
+    background-color: #fb6818;
+}
+.footerContainer{
+    background-color: #1d1f1e;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footerText{
+    text-align: justify;
+}
