@@ -6,6 +6,10 @@
         padding-top: 1rem;
         padding-bottom: 2rem;
     }
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none !important;
+    }
     .serviceImageContainer{
         width: 100% !important;
     }
@@ -24,6 +28,25 @@
     .blog{
         width: 100%;
     }
+    .feedbackLeft,
+    .feedbackRight,
+    .feedBackCard{
+        width: 100%;
+    }
+    .feedbackRight{
+        margin-top: 90px !important;
+    }
+    .arrows{
+        display: none !important;
+    }
+
+    .studentImageContainer {
+        width: 32%;
+        position: absolute;
+        top: -2rem;
+        left: 7rem;
+    }
+     
     .whyUsCardImageContainer{
     }
 }
